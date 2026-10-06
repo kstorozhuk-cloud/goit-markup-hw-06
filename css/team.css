@@ -1,16 +1,18 @@
 .team {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 96px;
   background-color: #f4f4fd;
 }
 
 .team-list {
   display: flex;
-  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 72px 24px;
 }
 
 .team-card {
-  width: calc((100% - 72px) / 4);
+  width: 264px;
   border-radius: 0 0 4px 4px;
   overflow: hidden;
   background-color: #ffffff;
@@ -58,4 +60,17 @@
 .team-social-link:hover,
 .team-social-link:focus {
   background-color: #404bbf;
+}
+
+@media (min-width: 768px) {
+  .team-list {
+    row-gap: 64px;
+  }
+}
+
+@media (min-width: 1158px) {
+  .team {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
 }
