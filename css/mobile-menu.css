@@ -63,6 +63,7 @@
 }
 
 .mobile-menu-link {
+  letter-spacing: 0.02em;
   font-size: 36px;
   line-height: 1.11;
   font-weight: 700;
@@ -88,6 +89,7 @@
 
 .mobile-menu-phone,
 .mobile-menu-email {
+  letter-spacing: 0.02em;
   font-size: 20px;
   line-height: 1.2;
   font-weight: 500;

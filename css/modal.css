@@ -99,6 +99,7 @@
 }
 
 .modal-input {
+  width: 288px;
   height: 40px;
   padding: 8px 16px 8px 38px;
   font-size: 16px;
@@ -217,6 +218,7 @@
 
 @media (min-width: 768px) {
   .modal {
+    row-gap: 72px;
     width: 408px;
     padding-left: 24px;
     padding-right: 24px;

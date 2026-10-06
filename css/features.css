@@ -25,6 +25,7 @@
 }
 
 .features-title {
+  margin-left: 50%;
   margin-bottom: 8px;
   color: #2e2f42;
 }
@@ -35,6 +36,7 @@
   }
 
   .features-title {
+    margin-left: 0px;
     font-size: 36px;
     line-height: 1.11;
     font-weight: 700;
@@ -73,6 +75,7 @@
   }
 
   .features-title {
+    margin-left: 0px;
     font-size: 20px;
     line-height: 1.2;
     font-weight: 500;
